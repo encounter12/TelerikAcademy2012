@@ -1,0 +1,40 @@
+Операторът + се използва за съединяване на символни низове (string). Той слепва два или повече низа и връща резултата като нов низ. Ако поне един от аргументите в израза е от тип string, и има други операнди, които не са от тип string, то те автоматично ще бъдат преобразувани към тип string.
+
+------------------------------------------
+/* Comments often end with "*/" characters */
+
+
+------------------------------------------
+
+int intNumber01 = 5; 
+int intNumber02 = 8;
+
+for(int i = 1; i < 12; i = i*2)
+{
+	intNumber01 += intNumber01;
+}
+
+Console.Writeline(intNumber01 + intNumber02);
+
+------------------------------------------
+
+// So is this,
+but this bit isn't.
+
+Console.Writeline("The first app in Beginning C# Programming!");
+
+------------------------------------------
+
+
+byte case = 3; 
+byte case02 = 7; 
+
+
+Console.WriteLine(case + case02);
+
+------------------------------------------
+
+int intNumber01 = 2; 
+int intNumber02 = 5; 
+
+int result = intNumber / 3 + ++intNumber02;

@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+    <script src="js/modernizr.custom.45720.js"></script>
+</head>
+<body>
+    <form method="post" action="form.aspx">
+        <div class="textfields">
+            <label for="membername">Member name:</label>
+            <input type="text" name="membername" required="required"/><span class="req">*req</span>
+        </div>
+        <div class="textfields">
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" required="required" placeholder="sample@domain.com" /><span class="req">*req</span>
+        </div>   
+        <div class="textfields">
+            <label for="school">School:</label>
+            <input type="text" name="school" required="required" /><span class="req">*req</span>
+        </div>
+        <input id="submit" type="image" src="images/submit.png" name="submitBtn" alt="Submit" />     
+    </form>
+</body>
+</html>

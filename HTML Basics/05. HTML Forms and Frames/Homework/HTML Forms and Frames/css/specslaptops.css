@@ -1,0 +1,147 @@
+﻿body 
+{
+    background-color: white;    
+    font-family: Georgia, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 22px;
+    width: 98%;
+}
+
+#container 
+{
+    width:1023px;
+    overflow:hidden;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid black;
+    border-radius: 7px;
+}
+
+nav {
+    margin:0px;
+    border-bottom:2px solid black;
+}
+
+
+nav ul 
+{
+    list-style-type:none;
+    overflow:hidden;
+    display:block;
+    padding:0;
+    width:60%;
+    margin-top:5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+nav ul li 
+{
+    float:left;
+    margin:2px;
+    padding:2px;
+}
+
+nav ul li a 
+{
+    color: #2DB7F1;
+    font-size:26px;
+    font-weight:bold;
+}
+
+nav ul:after {
+    clear:both;
+    content:"";
+    height:0px;
+    visibility:hidden;
+}
+
+
+aside 
+{
+    display:inline-block;
+    vertical-align:middle;
+    width:300px;
+    margin:5px;
+    font-size:24px;
+}
+
+section
+{
+    display:inline-block;
+    width:660px;
+    border:2px solid black;
+    margin:7px;
+    font-size:22px;
+    vertical-align:middle;
+    padding-bottom:20px;
+    padding-top:10px;
+}
+
+
+
+article {
+    border:2px solid black;
+    float:left;
+    width:47%;
+    margin:7px;
+    padding:0px;
+}
+
+article ul {
+    float:right;
+    list-style-type:none;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left:0px;
+    margin-bottom:6px;
+    padding:0px;
+}
+
+
+
+article ul li 
+{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+article h3 {
+    margin-top: -14px;
+    margin-left: 35px;
+    width: 230px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-weight: normal;
+    font-size: 24px;
+}  
+
+
+img 
+{
+    float:left;
+    width:167px;
+    margin-left:4px;
+    margin-right:0px;
+    margin-top:4px;
+}
+
+
+.price {
+    float:left;
+    margin-top:20px;
+    margin-left: 40px;
+    margin-bottom:6px;
+}
+
+.sliders {
+    margin:15px;
+}
+
+.slideroutput {
+    margin:10px;
+}
+
+form {
+    font-size:24px;
+}
+

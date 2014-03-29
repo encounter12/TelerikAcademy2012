@@ -1,0 +1,159 @@
+﻿body {
+    background-color: white;    
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    width: 98%;
+}
+
+#productstable {
+    width:880px;
+    border-collapse:collapse;
+    font-size:14px;
+}
+
+#rowten {
+    border-bottom: solid gray; 
+    border-bottom-width:2px;
+}
+
+#activepage {
+    border:1px solid;
+    border-color:#C95C05;
+    padding:3px;
+}
+
+#productstable th, td {
+    border:1px solid gray;
+    padding:5px;
+    
+}
+
+#productstable th{
+    font-weight:normal;
+    text-align:left;
+}
+
+#productstable tbody td input{
+    vertical-align:bottom;
+    margin: 2px;
+}
+
+.leftdiv {
+    float:left;
+}
+
+.leftdiv input , select {
+    vertical-align: middle;    
+}
+
+.leftdiv a {
+    vertical-align: middle;  
+    text-decoration:none;
+    font-size:14px;
+    color:black;
+    padding-left: 5px;  line-height: 30px;
+}
+
+
+
+#rightdiv {
+    float:right;
+    line-height: 30px;
+}
+
+#formtextrow {
+    background-color:#DFE3E8;
+}
+
+
+
+#tableheader {
+    /* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, #DBDDE0 0%, #F1F1F3 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #DBDDE0 0%, #F1F1F3 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #DBDDE0 0%, #F1F1F3 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #DBDDE0), color-stop(1, #F1F1F3));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #DBDDE0 0%, #F1F1F3 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top, #DBDDE0 0%, #F1F1F3 100%);
+}
+
+#toprow {
+    background-color:#E7E9EB;
+}
+
+#footrow {         
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, #BABFC4 0%, #E4E8EC 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #BABFC4 0%, #E4E8EC 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #BABFC4 0%, #E4E8EC 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #BABFC4), color-stop(1, #E4E8EC));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #BABFC4 0%, #E4E8EC 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top, #BABFC4 0%, #E4E8EC 100%);
+
+}
+
+#productid {
+    width:29px;
+}
+
+#productname {
+    width:143px;
+}
+#unitprice {
+    width:78px;
+}
+
+#quantityperunit {
+    width:93px;
+}
+
+#unitsinstock {
+    width:79px;
+}
+
+#column1 {
+    width:70px;
+}
+
+
+#column2 {
+    width:250px;
+}
+
+#column3 {
+    width:159px;
+}
+
+#column4 {
+    width:162px;
+}
+
+#column5 {
+    width:167px;
+}
+#column6 {
+    width:83px;
+}
+
+
+
+

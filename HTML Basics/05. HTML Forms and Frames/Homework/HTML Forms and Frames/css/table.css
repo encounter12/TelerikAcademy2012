@@ -1,0 +1,17 @@
+﻿body {
+    background-color: white;    
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    width: 98%;
+}
+
+#unidatatable {
+    border:2px;
+    border-style:ridge;
+    border-collapse:collapse;
+}
+
+table th, td {
+    border:3px;
+    border-style:ridge;
+    padding:5px;
+}

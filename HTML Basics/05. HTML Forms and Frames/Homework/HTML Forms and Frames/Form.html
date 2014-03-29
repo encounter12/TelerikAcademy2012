@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <script src="js/modernizr.custom.45720.js"></script>    
+</head>
+<body>
+    <form method="get" action="#">
+        <table id="formtable">
+            <thead></thead>
+            <tfoot id="tablefooter">
+                <tr>
+                    <td colspan="2">
+                        <div id="buttons">
+                            <input type="submit" value="Submit" id="submitbutton"/>
+                            <input type="reset" value="Clear this form" />
+                        </div>                      
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td><label for="lastname">Last Name</label></td>
+                    <td><input type="text" class="width370" id="lastname" name="lastname" value="Botusharov"/></td>
+                </tr>
+                <tr>
+                    <td><label for="firstname">First Name</label></td>
+                    <td><input type="text" class="width370" id="firstname" name="lastname" value="Ivaylo"/></td>
+                </tr>
+                <tr>
+                    <td><label for="addressfield">Address</label></td>
+                    <td><textarea class="myaddress" id="addressfield">Sofia, Mladost 4</textarea></td> <!-- in order to format text area using CSS class should be specified, id is not valid CSS selector-->
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" id="city" value="Sofia"/>
+                        <label class="state" for="state">State</label>
+                        <input type="text" id="state" value="Sofia"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="zipcode">Zip/Postal Code</label></td>
+                    <td><input type="text" id="zipcode" value="1712"/></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td><select name="country">
+                            <option value="Bulgaria" selected="selected">Bulgaria</option>
+                            <option value="Germany">Germany</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="United States">United States</option>  
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="countrycode">Phone (country code, area code, number)</label></td>
+                    <td>
+                        (+<input type="tel" id="countrycode" class="width40" value="359"/>)
+                        <input type="tel" id="areacode" class="width40" value="896"/>-
+                        <input type="tel" id="phonenumber" value="111111"/>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mail">E-mail</label></td>
+                    <td><input type="email" class="width370" id="mail" required="required" value="botusharov@karadere.com"/></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="birthmonth">Birth date</label>                        
+                    </td>
+                    <td>
+                        <span class="margin15">Month</span><input type="number" class="width40" id="birthmonth" value="02"/>
+                        Day<input type="number" class="width40" id="birthdate" value="23"/>
+                        Year(4-digit)<input type="number" class="width70" id="birthyear" value="1980"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <select name="gender" id="gender">
+                        <option value="choose">--Choose gender--</option>
+                        <option value="Male" selected="selected">Male</option>
+                        <option value="Female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Starting date</label>
+                    </td>
+                    <td>
+                        <span class="margin15">Spring 2006</span><input type="radio" name="startdate" value="Spring 2006" checked="checked"/>
+                        <span class="margin15">Summer 2006</span><input type="radio" name="startdate" value="Summer 2006" />                                                                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comments">Comments/Questions</label>
+                    </td>
+                    <td>
+                        <textarea id="comments">Please, send me more information about the lodging.</textarea>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

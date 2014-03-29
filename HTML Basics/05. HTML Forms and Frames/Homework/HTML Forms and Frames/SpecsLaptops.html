@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Laptops Store</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/specslaptops.css" />
+    <script src="js/modernizr.custom.45720.js"></script>    
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="#" title="Apple">Apple</a></li>
+                <li><a href="#" title="Toshiba">Toshiba</a></li>
+                <li><a href="#" title="Lenovo">Lenovo</a></li>
+                <li><a href="#" title="Dell">Dell</a></li>
+                <li><a href="#" title="Asus">Asus</a></li>
+                <li><a href="#" title="Acer">Acer</a></li>
+                <li><a href="#" title="HP">HP</a></li>
+            </ul>
+        </nav>
+        
+        <section>                                                      
+            <article>
+                <h3>Apple MacBook Air</h3>                    
+                <img src="images/laptop.png" />
+                <ul>
+                    <li>64 GB SSD</li>
+                    <li>2 GB DDR</li>
+                    <li>Intel Core i5</li>                                                       
+                </ul>
+                <span class="price">1300 USD</span>
+            </article>
+            <article>
+                <h3>Apple MacBook Air</h3>
+                <img src="images/laptop.png" />
+                <ul>                            
+                    <li>64 GB SSD</li>
+                    <li>2 GB DDR</li>
+                    <li>Intel Core i5</li>                                                   
+                </ul>
+                <span class="price">1300 USD</span>
+            </article>
+            <article>
+                <h3>Apple MacBook Air</h3>
+                <img src="images/laptop.png" />
+                <ul>
+                    <li>64 GB SSD</li>
+                    <li>2 GB DDR</li>
+                    <li>Intel Core i5</li>                           
+                </ul>
+                <span class="price">1300 USD</span>
+            </article>
+            <article>
+                <h3>Apple MacBook Air</h3>                    
+                <img src="images/laptop.png" />
+                <ul>
+                    <li>64 GB SSD</li>
+                    <li>2 GB DDR</li>
+                    <li>Intel Core i5</li>                                                       
+                </ul>
+                <span class="price">1300 USD</span>
+            </article>
+            <article>
+                <h3>Apple MacBook Air</h3>
+                <img src="images/laptop.png" />
+                <ul>
+                    <li>64 GB SSD</li>
+                    <li>2 GB DDR</li>
+                    <li>Intel Core i5</li>                           
+                </ul>
+                <span class="price">1300 USD</span>
+            </article>
+            <article>
+                <h3>Apple MacBook Air</h3>
+                <img src="images/laptop.png" />
+                <ul>
+                    <li>64 GB SSD</li>
+                    <li>2 GB DDR</li>
+                    <li>Intel Core i5</li>                            
+                </ul>
+                <span class="price">1300 USD</span>
+            </article>                                   
+        </section>
+        <aside>
+            <form method="get" action="#">
+                <label for="min_price">Min price:<output class="slideroutput" name="minprice">500 USD</output></label>
+                <div class="sliders">
+                    <input type="range" id="min_price" min="200" max="800" value="500" step="50" oninput="minprice.value = this.value + 'USD'"/>
+                </div>
+
+                <label for="max_price">Max price:<output class="slideroutput" name="maxprice">1500 USD</output></label>
+                <div class="sliders">
+                    <input type="range" id="max_price" min="800" max="2200" value="1500" step="50" oninput="maxprice.value = this.value + 'USD'"/>
+                </div>
+                <label for="min_ram">Min RAM:<output class="slideroutput" name="minram" >4 GB</output></label>
+                <div class="sliders">
+                    <input type="range" id="min_ram" min="1" max="7" value="4" step="1" oninput="minram.value = this.value + 'GB'"/>
+                </div>
+                <label for="max_ram">Max RAM:<output class="slideroutput" name="maxram">16 GB</output></label>
+                <div class="sliders">
+                    <input type="range" id="max_ram" min="8" max="24" value="16" step="1" oninput="maxram.value = this.value + 'GB'"/>
+                </div>
+            </form>     
+        </aside>
+        <footer></footer>                            
+    </div>
+</body>
+</html>
